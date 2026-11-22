@@ -1,0 +1,130 @@
+import type { Language } from '../types';
+
+export const MAATR_TRANSLATIONS: Record<Language, Record<string, string>> = {
+  en: {
+    moduleTitle: 'Maatr',
+    moduleSubtitle: 'Maternal & Newborn Healthcare Module',
+    tagline: 'Comprehensive Care from Conception to Postpartum',
+    
+    // Top summary cards
+    totalRegisteredMothers: 'Total Registered Mothers',
+    activePregnancies: 'Active Pregnancies',
+    ancVisitsDue: 'ANC Visits Due',
+    pncFollowupsDue: 'PNC Follow-ups Due',
+    highPriorityBeneficiaries: 'High Priority (Risk)',
+    pendingReferrals: 'Pending Referrals',
+    
+    // Navigation
+    navDashboard: 'Dashboard',
+    navRegisterMother: 'Register Mother',
+    navBeneficiaryList: 'Beneficiaries',
+    navAncTracking: 'ANC Tracking',
+    navDeliveryManagement: 'Delivery Care',
+    navPncTracking: 'PNC Tracking',
+    navRiskAssessment: 'Risk Engine',
+    navVisitSchedule: 'Visit Schedule',
+    navReferralManagement: 'Referrals',
+    navHealthRecords: 'Health Records',
+    navSupervisor: 'Supervisor View',
+
+    // Common actions & search
+    searchPlaceholder: 'Search by mother name, mobile, village, or ID...',
+    filterAll: 'All',
+    filterActivePregnancy: 'Active Pregnancy',
+    filterHighRisk: 'High Priority',
+    filterDelivered: 'Delivered / Postnatal',
+    actionViewProfile: 'View Profile',
+    actionRecordANC: 'Record ANC Visit',
+    actionRecordDelivery: 'Record Delivery',
+    actionRecordPNC: 'Record PNC Check',
+    actionCreateReferral: 'Escalate / Refer',
+    actionVoiceAssist: 'Voice Assist',
+    offlineStatus: 'Offline Ready',
+    syncNow: 'Sync Now',
+    syncedJustNow: 'All data synchronized',
+  },
+  hi: {
+    moduleTitle: 'मातृ (Maatr)',
+    moduleSubtitle: 'मातृ एवं नवजात स्वास्थ्य प्रबंधन मॉड्यूल',
+    tagline: 'गर्भावस्था से लेकर प्रसवोत्तर तक संपूर्ण स्वास्थ्य निगरानी',
+    
+    // Top summary cards
+    totalRegisteredMothers: 'कुल पंजीकृत माताएं',
+    activePregnancies: 'सक्रिय गर्भावस्था',
+    ancVisitsDue: 'नियत प्रसवपूर्व (ANC) जांच',
+    pncFollowupsDue: 'प्रसवोत्तर (PNC) जांच',
+    highPriorityBeneficiaries: 'उच्च प्राथमिकता (जोखिम)',
+    pendingReferrals: 'लंबित रेफरल',
+    
+    // Navigation
+    navDashboard: 'डैशबोर्ड',
+    navRegisterMother: 'माता पंजीकरण',
+    navBeneficiaryList: 'लाभार्थी सूची',
+    navAncTracking: 'ANC जांच ट्रैकिंग',
+    navDeliveryManagement: 'प्रसव प्रबंधन',
+    navPncTracking: 'PNC प्रसवोत्तर देखभाल',
+    navRiskAssessment: 'जोखिम मूल्यांकन',
+    navVisitSchedule: 'भेंट अनुसूची व कार्य',
+    navReferralManagement: 'अस्पताल रेफरल',
+    navHealthRecords: 'स्वास्थ्य रिकॉर्ड',
+    navSupervisor: 'पर्यवेक्षक (ANM/PHC)',
+
+    // Common actions & search
+    searchPlaceholder: 'माता का नाम, मोबाइल नंबर, गांव या आईडी से खोजें...',
+    filterAll: 'सभी',
+    filterActivePregnancy: 'सक्रिय गर्भावस्था',
+    filterHighRisk: 'उच्च प्राथमिकता',
+    filterDelivered: 'प्रसव पूर्ण (PNC)',
+    actionViewProfile: 'प्रोफ़ाइल देखें',
+    actionRecordANC: 'ANC जांच दर्ज करें',
+    actionRecordDelivery: 'प्रसव दर्ज करें',
+    actionRecordPNC: 'PNC जांच दर्ज करें',
+    actionCreateReferral: 'रेफर करें',
+    actionVoiceAssist: 'बोलकर दर्ज करें (Voice)',
+    offlineStatus: 'ऑफ़लाइन सक्रिय',
+    syncNow: 'सिंक करें',
+    syncedJustNow: 'सभी डेटा सुरक्षित है',
+  },
+  mr: {
+    moduleTitle: 'मातृ (Maatr)',
+    moduleSubtitle: 'माता आणि नवजात आरोग्य व्यवस्थापन',
+    tagline: 'गर्भधारणेपासून बाळंतपणापर्यंत संपूर्ण आरोग्य सुरक्षा',
+    
+    // Top summary cards
+    totalRegisteredMothers: 'नोंदणीकृत माता',
+    activePregnancies: 'सक्रिय गर्भधारणा',
+    ancVisitsDue: 'प्रलंबित ANC तपासण्या',
+    pncFollowupsDue: 'प्रलंबित PNC पाठपुरावा',
+    highPriorityBeneficiaries: 'उच्च प्राधान्य (धोकादायक)',
+    pendingReferrals: 'प्रलंबित संदर्भ (Referrals)',
+    
+    // Navigation
+    navDashboard: 'डॅशबोर्ड',
+    navRegisterMother: 'माता नोंदणी',
+    navBeneficiaryList: 'लाभार्थी यादी',
+    navAncTracking: 'ANC तपासणी ट्रॅकिंग',
+    navDeliveryManagement: 'प्रसूती व्यवस्थापन',
+    navPncTracking: 'PNC प्रसूतीनंतर काळजी',
+    navRiskAssessment: 'धोका मूल्यांकन',
+    navVisitSchedule: 'भेट वेळापत्रक व कामे',
+    navReferralManagement: 'संदर्भ (Referral)',
+    navHealthRecords: 'आरोग्य नोंदी',
+    navSupervisor: 'पर्यवेक्षक दृश्य (ANM/PHC)',
+
+    // Common actions & search
+    searchPlaceholder: 'मातेचे नाव, मोबाईल, गाव किंवा आयडीने शोधा...',
+    filterAll: 'सर्व',
+    filterActivePregnancy: 'सक्रिय गर्भधारणा',
+    filterHighRisk: 'उच्च प्राधान्य',
+    filterDelivered: 'प्रसूती झालेली',
+    actionViewProfile: 'प्रोफाइल पहा',
+    actionRecordANC: 'ANC नोंदवा',
+    actionRecordDelivery: 'प्रसूती नोंदवा',
+    actionRecordPNC: 'PNC तपासणी नोंदवा',
+    actionCreateReferral: 'संदर्भ पाठवा (Refer)',
+    actionVoiceAssist: 'आवाजाने नोंदवा',
+    offlineStatus: 'ऑफलाइन तयार',
+    syncNow: 'सिंक करा',
+    syncedJustNow: 'सर्व डेटा सुरक्षित',
+  },
+};
